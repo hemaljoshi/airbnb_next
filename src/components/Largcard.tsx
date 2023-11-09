@@ -15,9 +15,9 @@ const Largcard = ({ img, title, description, buttonText }: LargcardProps) => {
         <Image
           src={img}
           alt=""
-          layout="fill"
-          objectFit="cover"
-          className="rounded-2xl"
+          fill={true}
+          className="rounded-2xl object-cover"
+          sizes="100%"
         />
       </div>
       <div className="absolute top-32 left-12">

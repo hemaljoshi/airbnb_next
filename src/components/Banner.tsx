@@ -7,8 +7,10 @@ const Banner = () => {
       <Image
         src="https://i.ibb.co/pnHVmwW/57b9f708-bb12-498c-bc33-769f8fc43e63.jpg"
         alt=""
-        layout="fill"
-        objectFit="cover"
+        fill={true}
+        className="object-cover"
+        sizes="100%"
+        priority={true}
       />
       <div className="absolute top-1/2 w-full text-center">
         <p className="text-sm sm:text-lg">Not sure where to go? Perfect.</p>

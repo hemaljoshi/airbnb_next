@@ -15,9 +15,9 @@ const Header = () => {
         <Image
           src="https://i.ibb.co/zhqKhxB/Airbnb-Logo-Be-lo-svg.png"
           alt="Airbnb Logo"
-          layout="fill"
-          objectFit="contain"
-          objectPosition="left"
+          fill={true}
+          className="object-contain object-left"
+          sizes="100%"
         />
       </div>
       {/* search bar */}
