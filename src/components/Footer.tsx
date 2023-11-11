@@ -45,7 +45,7 @@ function Footer() {
         </div>
       </div>
       <div className="col-span-full hidden h-[1px] w-full bg-gray-400 md:block"></div>
-      <div className="col-span-3">
+      <div className="col-span-4">
         <div className="mx-auto mt-4 flex w-full items-center justify-center space-x-2 text-xs">
           <GlobeAltIcon className="-mr-2 h-5 w-5" />
           <p>English (EN)</p>
@@ -61,7 +61,7 @@ function Footer() {
             </li>
           </div>
         </div>
-        <p className="text-center text-sm">© 2022 Divyam</p>
+        <p className="text-center text-sm">© 2023 Hemal</p>
       </div>
     </footer>
   );
