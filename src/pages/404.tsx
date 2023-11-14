@@ -26,7 +26,7 @@ function Custom404() {
         </div>
         <div className="space-y-3">
           <p className="-mt-4 -mb-1 text-center text-8xl font-bold text-gray-700">
-            OOPS!!
+            OOPS!
           </p>
           <p className="text-center text-xl font-semibold">
             The link you followed may be broken, or the page may have been
